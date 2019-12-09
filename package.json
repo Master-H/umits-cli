@@ -1,13 +1,13 @@
 {
   "name": "hxycli",
-  "version": "2.1.3",
-  "description": "",
+  "version": "2.2.0",
+  "description": "base on create-umi,quick generate umi of typescript ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "dvats": "bin/dvats"
+    "umits": "bin/umits"
   },
   "author": "",
   "license": "ISC",
