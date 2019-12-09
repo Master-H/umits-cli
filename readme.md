@@ -1,7 +1,7 @@
 # usage
 * yarn (suggest)
 ```
-yarn install umits -g
+yarn global add  umits 
 umits init 
 
 ```
