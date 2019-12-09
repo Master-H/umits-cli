@@ -1,6 +1,6 @@
 {
-  "name": "hxycli",
-  "version": "2.2.0",
+  "name": "umits-cli",
+  "version": "1.0.0",
   "description": "base on create-umi,quick generate umi of typescript ",
   "main": "index.js",
   "scripts": {
