@@ -1,5 +1,5 @@
 {
-  "name": "umits-cli",
+  "name": "umits",
   "version": "1.0.0",
   "description": "base on create-umi,quick generate umi of typescript ",
   "main": "index.js",
