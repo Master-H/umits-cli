@@ -7,7 +7,7 @@ umits init
 ```
 * npm
 ```
-NPM install umits -g
+npm install umits -g
 umits init 
 
 ```
