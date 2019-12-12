@@ -7,7 +7,7 @@ const yosay = require('yosay')
 module.exports = () => {
  co(function *() {
   	let projectName = yield prompt('Project name: ')  // 用户输入的文件名
-  	let gitUrl = 'git@github.com:Master-H/dvats.git' // 模板仓库地址
+  	let gitUrl = 'git@github.com:Master-H/umits.git' // 模板仓库地址
     
   let cmdStr = `git clone --depth=1 ${gitUrl} ${projectName}  && cd ${projectName} && rm -rf .git`
 	console.log(yosay(chalk.red(`\n Downing ... `)))
