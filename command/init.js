@@ -1,3 +1,10 @@
+/*
+ * @Author: huangxingyuan
+ * @Date: 2020-11-23 22:15:43
+ * @LastEditors: huangxingyuan
+ * @LastEditTime: 2021-01-18 18:55:18
+ * @Description: 文件功能描述
+ */
 'use strict'
 const exec = require('child_process').exec
 const co = require('co')
@@ -12,6 +19,7 @@ module.exports = () => {
     
   let cmdStr = `git clone --depth=1 ${gitUrl} ${projectName}  && cd ${projectName} && rm -rf .git`
 	console.log(yosay(chalk.red(`\n Downing ... `)))
+	console.log(chalk.red(`\n 下载如果太慢直接clone,源码地址:https://github.com/Master-H/umits`))
 	exec(cmdStr,(error) => {
       if (error) {
         console.log(error)
