@@ -1,6 +1,6 @@
 {
   "name": "umits",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "base on create-umi,quick generate umi of typescript ",
   "main": "index.js",
   "scripts": {
